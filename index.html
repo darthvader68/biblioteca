@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,42 +8,40 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Site Biblioteca</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header>
-        <div class="navbar">
-            <div class="logo"><a href="#">Biblioteca</a></div>
+        <h1>Biblioteca</h1>
+        <nav class="navbar">
             <ul class="links">
                 <li><a href="home">Principal</a></li>
                 <li><a href="about">Sobre</a></li>
                 <li><a href="services">Cursos</a></li>
-                <li><a href="Contact">Projetos e Eventos</a></li>
+                <li><a href="Contact">Projetos e Eventos</a></li>                
+                <a href="#" class="cadastro_btn">Cadastre-se</a>
             </ul>
-            <a href="#" class="action_btn">Get Started</a>
-            <div class="toggle_btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </div>
+        </nav>
 
-        <div class="dropdown_menu" open>
-            <li><a href="home">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="services">Services</a></li>
-            <li><a href="Contact">Contact</a></li>
-            <li><a href="#" class="action_btn">Get Started</a></li>
-        </div>
     </header>
 
     <main> 
-        <section id="hero">
-            <h1>Bem-vindo!</h1>
-            <p>"A leitura é para a mente o que o exercício é para o corpo."</p><br>
+        <aside>
+            <h2>Bem-vindo!</h2>
+            <p>"A leitura é para a mente o que o exercício é para o corpo."</p>
             <p>Joseph Addison</p>
-        </section>
-    </main>
+            <form action="">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="submit" value="Entrar >">
+            </form>
+        </aside>
 
+        <article>
+            <img src="img/bilbioteca2.jpg">
+        </article>
+    </main>
     
 </body>
 

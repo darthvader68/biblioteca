@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor1: #3F413E;
+    --cor2: #8B7A4E;
+    --cor3: #787450;
+    --cor4: #ab6a6e;
+    --cor5: #f7345b;
+    --cor6: #cbcfb4;
+
+    --font1:'Bebas Neue', sans-serif;
+    --font2: nunito, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font2);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--cor1);
+    padding: 15px;
+    min-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor1);
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 2em;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: var(--cor5);
+    transition: 0.3s all;
+}
+
+.cadastro_btn {
+    border: 2px solid #f7345b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cadastro_btn:hover {
+    background-color: #f7345b;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 56px;
+    color: var(--cor5);
+}
+
+p {
+    line-height: 30px;
+    min-width: 500px;
+    text-align: justify;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    margin-top: 20px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: #f7345b;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+img {
+    width: 730px;
+    height: 460px;
+}
+
+
