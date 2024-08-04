@@ -50,6 +50,23 @@
         width: 28%;
     }
 
+    button {
+        margin-top: 10px;
+        background-color: #3F413E;
+        border: none;    
+    }
+
+    #entrar_btn {
+        display: flex;
+        background-color: #3F413E;
+        border: 2px solid #f7345b;
+        margin-top: 20px;
+        padding: 10px;
+        padding-left: 50px;
+        border-radius: 10px;
+        width: 15%;
+    }
+
 
     img {
         margin-top: 10px;

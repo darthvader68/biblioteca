@@ -16,6 +16,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
     box-sizing: border-box;
     font-family: var(--font2);
 }
@@ -43,6 +44,12 @@ h1 {
     font-family: var(--font2);
     font-weight: 700;
     font-size: 2em;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 li {
@@ -110,17 +117,29 @@ input {
     border: none;
 }
 
-form [type="submit"] {
-    height: 50px;
-    width: 50%;
-    background-color: #f7345b;
-    color: white;
-    font-weight: bold;
+button {
+    margin-top: 10px;
+    background-color: #3F413E;
     border: none;
+
 }
 
-form [type="submit"]:hover {
-    cursor: pointer;
+#entrar_btn {
+    display: flex;
+    text-align: center;
+    background-color: #3F413E;
+    border: 2px solid #f7345b;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+#entrar_btn:hover {
+    background-color: #f7345b;
+    color: white;
 }
 
 img {
